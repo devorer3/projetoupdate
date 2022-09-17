@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta HTML5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    
+    
+</head>
+<body>
+    <h1>Site de consulta de Aprendizado</h1>
+    <p>Nesse site posso ver tudo aprendizado e como aplicar </p>
+    <h2>Título e parágrafo</h2>
+    <p>Para colocar um <strong>título</strong> em uma página basta basta digitar <big><strong> &lt;h1&gt;</strong></big>, veja o ex:</p>
+    <p>Além disso os títulos vão de H1 até H6</p>
+    <p><img src="imagens/h1-exemplo1.PNG" alt="Exemplo para h1"></p>
+    <p>Para colocar um <strong>parágrafo</strong> basta digitar <big><strong> &lt;p&gt;</strong></big>, veja o ex: </p>
+    <p><img src="imagens/p-exemplo.PNG" alt="Exemplo de parágrafo p"></p>
+    <p>Também podemos <strong>quebrar linhas</strong> com a tag <big><strong> &lt;br&gt;</strong></big> </p>
+    
+    
+    <h2>Emoji e símbolos especiais</h2>
+    <p>Para adicionar <strong>símbolos</strong> especiais basta digitar <big><strong> "&" </strong></big> e escolher o símbolo que deseja, aqui estão alguns exemplos:</p>
+    <p><img src="imagens/simbolos-exemplo.PNG" alt="exemplo dos símbolos"></p>
+    <p> &reg; &copy; &trade; &euro; &pound; &yen; &cent; &delta; &uarr;</p>
+    <p>Para adicionar um <strong>Emoji</strong> na sua página basta procurar o código do emoji clicando <a href="https://emojipedia.org" target="_blank" rel="external" >aqui</a>, ex:</p>
+    <p><img src="imagens/emoji-exemplo.PNG" alt="Exemplo do código de emoji"></p>
+    <p> &#x1F596; &#x1F913; </p>
+    <h2>Adicionando Favicon</h2>
+    <p>Para adicionar um <strong>Favicon</strong> basta digitar <big><strong> link:favicon </strong></big> na aba <strong>head</strong>  do código e  depois, na parte de  <strong>"href"</strong>, usar <br> a tecla de atalho <strong>CTRL + Space</strong> para selecionar o arquivo de sua preferência. </p>
+    <p>Você pode <strong>criar</strong> um favicon clicando <a href="www.favicon.cc" target="_blank" rel="external">aqui</a> ou pode <strong>procurar</strong> um favicon pronto, clicando <a href="https://iconarchive.com" target="_blank" rel="external">aqui</a>. Exemplos:</p>
+    <p><img src="imagens/codigo-favicon.PNG" alt="Imagem do código do favicon"> </p> 
+    <p><img src="imagens/demonstracao-favicon.PNG" alt="demonstracao do favicon na pagina"> </p>
+    
+    
+    <h2>Listas</h2>
+    <h3>Lista ordenada</h3>
+    <p>Para criar <strong>uma lista ordenada</strong> basta digitar <big><strong> &lt;ol&gt;</strong></big> e colocar os itens da lista dentro de <big><strong> &lt;li&gt;</strong></big>, exemplo: </p>
+    <p><img src="imagens/listaOrdenada-exemplo.PNG" alt="exemplo do código para lista ordenada"></p>
+    <p>Passo a passo do aprendizado:</p>
+    <ol>
+        <li>Estudar o conteúdo com o PDF.</li>
+        <li>Praticar o conteúdo e os exercícios.</li>
+        <li>Assistir o vídeo para fixar os conteúdos.</li>
+    </ol>
+    <h3>Lista não ordenada</h3>
+    <p>Para criar uma <strong>lista não ordenada</strong> basta digitar <big><strong> &lt;ul&gt;</strong></big> e colocar os itens da lista dentro de <big><strong> &lt;li&gt;</strong></big>, exemplo: </p>
+    <p><img src="imagens/listaNaoOrdenada-exemplo.PNG" alt="Exemplo do código de uma lista não ordenada"></p>
+    <p>Ferramentas para aprender:</p>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
+
+    
+        <h2>Criando Links</h2>
+    <p>Para criar um <strong>Link</strong> basta digitar <big><strong> &lt;a&gt;</strong></big>, inserir o código da url em <big><strong>"href"</strong></big>, e digitar o texto linkado, exemplo:</p>
+    <p><img src="imagens/link-exemplo.PNG" alt="código exemplo para inserir link"> <a href="SiteConsulta.html">Projeto site de consulta</a></p>
+    <p>Existem alguns comandos que auxiliam o link como por exemplo a o <big><strong>target="_blank"</strong></big> esse comando define <br>
+    que o link será aberto em uma nova página e o <big><strong>rel="external"</strong></big> vai comunicar ao navegador que o link é de um site externo, ex: </p>
+    <p><img src="imagens/link-exemplo2.PNG" alt="exemplo 2 do link"> <a href="https://www.youtube.com" target="_blank" rel="external">YouTube</a></p>
+    <h3>Criando um link de download</h3>
+    <p>Para criar um <strong>link de download</strong> basta inserir a tag <big><strong>"download"</strong></big> dentro de <big><strong> &lt;a&gt;</strong></big> e inserir o tipo de arquivo
+    que está sendo disponibilizado em <big><strong>"type"</strong>, ex:</p>
+    <p><img src="imagens/linkDownload.PNG" alt="imagem do código de link para download"></p>
+    <a href="imagens/Arquivo.pdf" download="imagens/Arquivo.pdf" type="application/pdf">Link para Download</a>
+    <h2>Algumas tags úteis</h2>
+    <h3>Negrito/destaque</h3>
+    <p>Nesta frase tenho um <strong>Termo em destaque</strong> usando a tag <big> <strong>&lt;strong&gt;</strong></big> </p>
+    <h3>Itálico/Ênfase</h3>
+    <p>Nesta frase, temos um <em>Termo de ênfase</em> usando a tag <big> <strong>&lt;em&gt;</strong></big></p>
+    <h3>Texto marcado</h3>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag <big> <strong>&lt;mark&gt;</strong></big></p>
+    <h3>Texto grande  e pequeno</h3>
+    <p>Estamos criando um <big>Texto Grande</big> e um <small>Texto Pequeno</small> nesse parágrafo <big> <strong>&lt;big&gt;</strong></big> e <big> <strong>&lt;small&gt;</strong></big> respectivamente.</p>
+    <h3>Texto deletado</h3>
+    <p>Podemos marcar <del>Um texto como excluído</del> para indicar que ele dever ser lido, mas não considerado<big> <strong>&lt;del&gt;</strong></big></p>
+    <h3>Texto inserido</h3>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois <big> <strong>&lt;ins&gt;</strong></big></p>
+    <h3> Texto sobrescrito</h3>
+    <p>Para inserir coisas do tipo x <sup>20</sup>+3 <big> <strong>&lt;sup&gt;</strong></big></p>
+    <h3>Texto subscrito</h3>
+    <p>Para inserir coisas do tipo H <sub>2</sub>O <big><strong>&lt;sub&gt;</strong></big></p>
+    <h3>Código fonte / Pré-formatação</h3>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript <big><strong>&lt;code&gt;</strong></big></p>
+    <pre>
+        <code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0
+             print(f'O numero {num} é PAR')
+             else:
+              print(f'O numero {num é IMPAR'}
+              print('Fim do programa')
+              <br>
+             O comando <big> <strong>&lt;pre&gt;</strong></big>  serve para formatar as linhas
+        </code>
+    </pre> 
+    <h3>Citações simples</h3>
+    <p>Como diria o pai de um amigo: <q> o computador é muito burro muito rápido</q> <big><strong>&lt;q&gt;</strong></big></p>
+    <h3>Citações completas</h3>
+    <p>Seundo Jeff Noble, no seu livro HTML para leigos:</p>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto. 
+        <big><strong>&lt;blockquote&gt;</strong></big>
+    </blockquote>
+    <h3>Abreviações</h3>
+    <p>Estou estudando <abbr title="HyperText Markip Language">HTML </abbr>
+        e <abbr title="Cascading Style Sheets">CSS </abbr>. Estou adorando!! <big><strong>&lt;abbr&gt;</strong></big></p>
+    <h3>Texto invertido</h3>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo><big><strong>&lt;bdo&gt;</strong></big></p>
+
+    <h2>Redimensionando Imagem com o GIMP</h2>
+    <p>Aqui está um tutorial passo a passo de como redimensionar imagens com a ferramenta GIMP</p>
+    <p>1- Primeiro, você irá selecionar a imagem que deseja redimencionar e abrir com o GIMP</p>
+    <p><img src="imagens/imagens gimp/parte1-gimp600.png" alt="parte 1 tutorial gimp"></p>
+    <p>2- Segundo, você vai até a aba "imagens" e aperte na opção "redimensionar imagem" como no exemplo.</p>
+    <p><img src="imagens/imagens gimp/parte2-gimp.png" alt="parte 2 tutorial gimp"></p>
+    <p>3- Terceiro, você irá selecionar o tamanho da imagem que desejar e ajustar a resolução.(lembre-se de que quanto maior for o tamanho do arquivo de imagem, mais pesado será seu site) </p>
+    <p><img src="imagens/imagens gimp/parte3-gimp.PNG" alt="parte 3 tutorial gimp"></p>
+    <p>4- Quarto, despois de escolher o tamanho da imagem, você terá que salvar o arquivo, segue o exemplo:</p>
+    <p><img src="imagens/imagens gimp/parte4-gimp.PNG" alt="parte 4 tutorial gimp"></p>
+    <p>5- Quinto, nesta aba você escolherá o nome do arquivo e a pasta que o deseja salvar.</p>
+    <p><img src="imagens/imagens gimp/parte5-gimp650.png" alt="parte 5 tutorial gimp"></p>
+    <p>6- Sexto. Por fim , você escolherá a qualidade da imagem(sempre lembrando do ensinamento da imagem 3) e em seguida clicar em exportar.</p>
+    <p><img src="imagens/imagens gimp/parte6-gimp.PNG" alt="parte 6 tutorial gimp"></p>
+    <p><strong>Resultado da Imagem redimensionada</strong></p>
+    <img src="imagens/imagens gimp/paisagem-300.jpg" alt="imagem de paisagem redimensionada">
+
+    <h2>Como inserir uma imagem na Página</h2>
+    <p>Para inserir uma imagem no seu site basta digitar o comando <big><strong>&lt;img&gt;</strong></big>.Depois disso você vai selecionar 
+       <br> sua imagem(que está dentro da sua pasta junto com seu documento HTML)
+    apertando as teclas <br>
+     <big><strong>"Ctrl + space"</strong></big> e em seguida vai adicionar uma descrição para a imagem dentro do parâmetro <big><strong>"alt"</strong></big>
+    , exemplo:</p>
+    <p><img src="imagens/imagem-exemplo.png" alt="exemplo do código de imagem"></p>
+    <img src="imagens/foto-perfil-guanabara.png" alt="foto do melhor professor, professor Guanabara">
+
+    <h2>Imagem dinâmica em HTML</h2>
+    <p>O site deve se adptar para cada dispositivo que tentar acessalo e para isso da para criar imagens dinâmicas que se moldam conforme a tela do usuário</p>
+    <p>1- Primeiro, você vai redimensionar 3 imagens diferentes no GIMP como foi ensinado na parte anterior como essas: </p>
+    <p><img src="imagens/imagemDinamica-exemplo.png" alt="Exemplo de arquivos redimensionados pelo GIMP"></p>
+    <p>2- Agora vamos para o código, a tag <big><strong>&lt;img&gt;</strong></big> ficará dentro da tag <big><strong>&lt;picture&gt;</strong></big> e você irá adicionar <br>
+    a maior foto que você redimensionou por primeiro, assim :</p>
+    <p><img src="imagens/imagemDinamica-exemplo2.png" alt="exemplo do código da imagem dimanica"></p>
+    <p>3- Após isso, você irá utilizar uma nova tag no lugar de <strong>img</strong>. A nova tag é <big><strong>&lt;source&gt;</strong></big> e dentro dela você irá <br> adicionar as imagens
+    em uma escala de maior para a menor. <br> Dentro de <strong>"Source"</strong> você irá adicionar 3 paramentros. O primeiro parametro é <strong>"(max-width: px)"</strong> na qual você irá colocar o máximo de pixels para a imagem reduzir(coloque sempre um pouco a mais que a primeira imagem que está dentro de picture)
+    em seguida, você ira inserir o parâmetro <strong>src</strong> que é para selecionar a imagem desejada e por fim você irá colocar o parâmetro <strong>type</strong> que vai informar ao navegador o tipo de imagem está sendo mostrada, segue o exemplo: </p>
+    <p><img src="imagens/imagemDinamica-exemplo3.png" alt="exemplo 3 imagem dinamica"></p>
+    <p><small>Nesta está limitada a 1050px pixels e 750px, pois o tamanho da imagem g é 1000px e da segunda imagem m é de 700px(no parametro media sempre coloque um pouco mais do que o máximo)</small></p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem maior flexível">
+    </picture>
+    <h2>Inserindo audio</h2>
+    <p>Vamos aprender a colocar um audio na página</p>
+    <p>Para isso você vai utilizar o comando <big><strong>&lt;audio&gt;</strong></big> e em seguida digitar mais dois 
+    parametros dentro de audio, o <strong>controls</strong> que vai adicionar o play para o audio e o comando 
+    <strong>autoplay</strong> que vai fazer sair som automatico ao usuário entrar na página(só funciona em alguns navegadores)</p>
+    <p><img src="imagens/audio-exemplo.png" alt="exemplo de código para inserir um audio na página"></p>
+    <p><audio src="audio/mydog.mp3" controls autoplay></audio> </p>
+
+    <h2>Inserindo videos</h2>
+    <h3>Inserindo vídeos no próprio servidor</h3>
+    <p>Para inserir videos basta colocar a tag <big><strong>&lt;video&gt;</strong></big> e dentro de <strong>"src"</strong> você seleciona o arquivo de vídeo. <br>
+    Depois você irá adicionar mais dois parâmetros, o <strong>controls</strong> novamente e o <strong>"width"</strong> que irá redimensionar o tamanho que o video é exibido em sua página</p>
+    <p><img src="imagens/video-exemplo.png" alt="exemplo código para inserir um video"></p>
+    <video src="video/video-original.mp4" width="300" controls></video>
+    <h3>Inserindo vídeos externos(YouTube)</h3>
+    <p>Para inserir um vídeo do youtube direto no seu site basta seguir os passos abaixo:</p>
+    <p>1- Depois de escolher o video que deseja, vá até a aba compartilhar.</p>
+    <p><img src="imagens/videoExterno-exemplo.png" alt="exemplo 1 video externo"></p>
+    <p>2- Em seguida clique em "Incorporar".</p>
+    <p><img src="imagens/videoExterno-exemplo2.png" alt="exemplo 2 video externo"></p>
+    <p>3- Agora copie o código do vídeo que irá aparecer:</p>
+    <p><img src="imagens/videoExterno-exemplo3.png" alt="exemplo 3 video externo"></p>
+    <p>4- Por fim, cole o código do vídeo no seu bloco de códigos.</p>
+    <img src="imagens/videoExterno-exemplo4.png" alt="exemplo 4 video externo">
+    <p><small>Lembrando que as tagas "width" e "height" servem para redimensionar o video na sua página</small></p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jgQjeqGRdgA" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+
+
+    
+</body>
+</html>
